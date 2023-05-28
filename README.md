@@ -22,7 +22,7 @@ This will open the Cypress Test Runner, where you can select and run individual 
 
 Alternatively, you can run the tests in headless mode using the following command:
 
-npx cypress run
+npx cypress run --browser chrome 
 
 This will execute the tests in the background, and you'll see the test results in the terminal or command prompt.
 
