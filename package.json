@@ -1,0 +1,23 @@
+{
+  "name": "qa-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkyrychenkoeu/qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkyrychenkoeu/qa/issues"
+  },
+  "homepage": "https://github.com/vkyrychenkoeu/qa#readme",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
