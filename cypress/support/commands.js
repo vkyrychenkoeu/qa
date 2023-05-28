@@ -104,3 +104,10 @@ Cypress.Commands.add("userSettings", () => {
     .click();
   cy.url().should("include", "settings/general");
 });
+
+Cypress.Commands.add('generateRandomUsername', () => {
+    const prefix = 'user_';
+    const randomSuffix = Math.floor(Math.random() * 1000);
+    const newUsername = prefix + randomSuffix;
+    return newUsername;
+  });
